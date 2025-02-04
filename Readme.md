@@ -1,6 +1,6 @@
 Cours No SQL 
 
-
+il faut exposer le [port:6379]
 
 
 
