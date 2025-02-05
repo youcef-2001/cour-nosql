@@ -7,7 +7,7 @@ client = MongoClient('mongodb://localhost:27017/')
 
 db = client.mydb
 collection = db.mycollection
-with open("accounts.json", "r") as file:
+with open("/Users/youcefbaleh/Desktop/H3_Cours/NoSQL/cour-nosql/MongoDB/accounts.json", "r") as file:
     data = json.load(file)
 
 
