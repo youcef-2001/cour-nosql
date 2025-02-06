@@ -32,6 +32,7 @@ services:
     volumes:
       - ./logstash/logstash.yml:/usr/share/logstash/config/logstash.yml
       - ./logstash/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+      - ./data/data.csv:/usr/share/logstash/external-data/data.csv
 
   kibana:
     image: kibana:7.6.2
