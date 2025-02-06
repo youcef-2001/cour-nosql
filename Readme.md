@@ -35,7 +35,7 @@ This repository contains code examples for each of the NoSQL databases mentioned
 - **Neo4j**: Example of creating and managing graphs for relationship management.
 - **Elasticsearch**: Example of indexing and searching text data.
 
-Each folder contains detailed instructions for getting started and code examples that you can test locally.
+
 
 
 
