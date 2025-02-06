@@ -1,7 +1,7 @@
 from elasticsearch import Elasticsearch
 
 # Initialisation du client Elasticsearch
-es = Elasticsearch()
+es = Elasticsearch('http://localhost:9200')
 
 # Fonction pour vérifier si un index existe
 def check_index(index_name):
@@ -87,7 +87,7 @@ def aggregate_movies_by_year(index_name):
 
 # Fonction principale
 def main():
-    index_name = "movies"
+    index_name = "cities"
 
     # Vérifier et créer l'index
     create_index(index_name)
@@ -102,4 +102,7 @@ def main():
     aggregate_movies_by_year(index_name)
 
 if __name__ == "__main__":
-    main()
+    #main()
+
+    res = es.search(index="cities", body={"query":{"match_all":{}}})
+    res
