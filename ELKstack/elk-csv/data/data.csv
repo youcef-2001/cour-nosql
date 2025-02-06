@@ -1,0 +1,5 @@
+order_id,order_date,customer_name,product_name,quantity,price
+1,2019-01-01,John Doe,Product A,2,100
+2,2019-01-02,Jane Doe,Product B,3,200
+3,2019-01-03,Bob Smith,Product C,1,50
+4,2019-01-04,Jim Johnson,Product D,4,75
