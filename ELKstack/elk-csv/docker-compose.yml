@@ -33,7 +33,7 @@ services:
       - ./logstash/logstash.yml:/usr/share/logstash/config/logstash.yml
       - ./logstash/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
       - ./data/data.csv:/usr/share/logstash/external-data/data.csv
-
+      - ./data/data-json.log:/usr/share/logstash/external-data/data-json.log
   kibana:
     image: kibana:7.6.2
     container_name: kibana
