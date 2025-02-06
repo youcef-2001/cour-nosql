@@ -1,0 +1,4 @@
+cluster.name: docker-cluster
+node.name: docker-node
+node.master: true
+network.host: 0.0.0.0
