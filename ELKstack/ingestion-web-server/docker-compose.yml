@@ -30,10 +30,10 @@ services:
     networks:
       - dockerelk
     volumes:
-      
+      - ./logstash/logstash.yml:/usr/share/logstash/config/logstash.yml
       - ./logstash/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
       - ./web_server_logs/logstash-apache.conf:/usr/share/logstash/pipeline/logstash-apache.conf
-      - /data/apache_logs.txt:/apache_logs.txt
+      - ./data/apache_logs.txt:/usr/share/logstash/external-data/apache_logs.txt
   kibana:
     image: kibana:7.6.2
     container_name: kibana
