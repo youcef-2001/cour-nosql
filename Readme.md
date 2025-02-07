@@ -19,7 +19,7 @@ NoSQL databases have become widely popular due to their ability to handle large 
 
 ## Prerequisites
 
-Before you start, make sure you have the following installed:
+Before you start, make sure you have the following installed or pull the respective docker images and run them :
 - [Redis](https://redis.io/download)
 - [MongoDB](https://www.mongodb.com/try/download/community)
 - [Neo4j](https://neo4j.com/download/)
