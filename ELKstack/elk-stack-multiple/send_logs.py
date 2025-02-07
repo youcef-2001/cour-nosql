@@ -14,7 +14,7 @@ error_logs = [
     {"level": "ERROR", "message": "Permission denied", "user_id": 4},
 ]
 # local set up 
-LOGS_DIR = "./ELKstack/elk-stack-multiple/logs"
+LOGS_DIR = "./logs"
 LOG_FILE = "python_logs.log"
 
 #write log into local file 

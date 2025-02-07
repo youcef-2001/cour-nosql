@@ -49,7 +49,7 @@ services:
       - elasticsearch
 
   filebeat:
-    image: docker.elastic.co/beats/filebeat:7.11.2
+    image: docker.elastic.co/beats/filebeat:8.17.1
     container_name: filebeat
     volumes:
       - ./filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml
