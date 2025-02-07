@@ -5582,3 +5582,4 @@
 {"level": "DEBUG", "message": "Query executed", "user_id": 3}
 {"level": "ERROR", "message": "Failed to connect to database", "user_id": 2}
 {"level": "DEBUG", "message": "Query executed", "user_id": 3}
+{"level": "ERROR", "message": "Failed to connect to database", "user_id": 2}
